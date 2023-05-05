@@ -1,0 +1,33 @@
+
+.section{
+    background:  no-repeat  linear-gradient(45deg, #13547a, #80d0c7);
+
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+
+
+
+
+}
+.main_wrapper{
+    display: flex;
+    gap: 10%;
+    max-width: 60%;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+
+}
+.work , .cycle, .break{
+
+}
+.timer{
+    display: flex;
+}
+.cycle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

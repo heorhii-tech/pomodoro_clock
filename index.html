@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="section">
+ <div class="container">
+
+    <div class="main_wrapper">
+        <div class="work">
+            <p class="label" id="work">Work</p>
+            <div class="timer" id="work_timer">
+                <p class="" id="w_minutes">25</p>
+                <p class="semicolon ">: </p>
+                <p class=" " id="w_seconds">00</p>
+
+            </div>
+
+            <button class="btn" id="start">Start</button>
+
+        </div>
+        <div class="cycle">
+            <p class="label" id="break">Cycle</p>
+            <p id="counter" class="">0</p>
+
+            <button class="btn" id="stop">Stop</button>
+
+
+        </div>
+        <div class="break">
+            <p>Break</p>
+            <div class="timer " id="break_timer">
+                <p class="" id="b_minutes">05</p>
+                <p class="semicolon ">: </p>
+                <p class=" " id="b_seconds">00</p>
+            </div>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+
+
+    </div>
+
+
+ </div>
+</div>
+
+
+<script src="pomodoroJS.js"></script>
+</body>
+</html>
